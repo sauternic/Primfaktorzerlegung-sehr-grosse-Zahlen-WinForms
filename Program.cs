@@ -55,7 +55,7 @@ namespace Primfaktorzerlegung
             }
             catch (Exception)
             {
-                MessageBox.Show("Bitte nur Zahlen Eingeben! :(\nMax 29 Stellen\n(decimal Datentyp)");
+                MessageBox.Show("Bitte nur Zahlen Eingeben!");
             }
             //Textbox leeren
             textBox2.Invoke(new Action(() => textBox2.Text = ""));
